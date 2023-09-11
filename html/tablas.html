@@ -7,5 +7,97 @@
     <title>Tablas</title>
 </head>
 <body>
-    <h1>Holi</h1>
+    <a href="../index.html">Volver a la pagina principal</a>
+    <h2>Ejemplo de fusión de celdas en filas (rowspan)</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Puntos</th>
+            <th>Deporte</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Juan</td>
+            <td>25</td>
+            <td>Fútbol</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>Basketball</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>28</td>
+            <td>Basketball</td>
+        </tr>
+    </table>
+    <h2>Ejemplo de fusión de celdas en columnas (colspan)</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th colspan="2">Información de Contacto</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Teléfono: 123-456</td>
+            <td>Email: juan@example.com</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Teléfono: 789-123</td>
+            <td>Email: maria@example.com</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption> TABLA DE POSICIONES</caption>
+        <thead>
+            <tr>
+                <th>EQUIPOS</th>
+                <th>PARTIDOS</th>
+                <th>PUNTOS</th>
+                <th>ESCUDO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Colombia</td>
+                <td>5</td>
+                <td>15</td>
+                <td>
+                    <img  src="https://th.bing.com/th?id=OIP.IVm4Xgn0MK8Xzgt52_t39wHaHU&w=251&h=248&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" width="80px" height="80px" alt="Escudo Seleccion Colombia">
+                </td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td>3</td>
+                <td>16</td>
+                <td>
+                    <img src="../img/escudo_brasil.jpeg" width="80px" height="80px" alt="Escudo Brasil">
+                </td>
+            </tr>
+            <tr>
+                <td>Venezuela</td>
+                <td>6</td>
+                <td>12</td>
+                <td>
+                    <img src="https://th.bing.com/th?id=OIP.TJKH2-am91u8ue1hXZtDtgHaKf&w=210&h=297&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" width="80px" height="80px" alt="Escudo Venezuela">
+                </td>
+            </tr>
+            <tr>
+                <td>Inglaterra</td>
+                <td>8</td>
+                <td>16</td>
+                <td>
+                    <img src="../img/escudo_inglaterra.jpeg." width="80px" height="80px" alt="Escudo Inglaterra">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" >
+                    Eliminatoria al mundial
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
 </body>
