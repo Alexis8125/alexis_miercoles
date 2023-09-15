@@ -7,12 +7,12 @@
 } 
 /*selector por etiqueta*/
 span {
-    color:orangered;
+    color:#ff4500;
 }
 /*selector por id*/
 #option_one, #option_three{
     font-weight: 900;
-    background-color: aquamarine;
+    background-color: #7fffd4;
     margin-left: 20px;
 }
 /*selector por clase*/
@@ -24,5 +24,5 @@ span {
 }
 /*selector por atributo*/
 [disabled]{
-    background-color: red;
+    background-color: #ff0000;
 }
