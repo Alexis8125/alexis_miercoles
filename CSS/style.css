@@ -26,3 +26,53 @@ span {
 [disabled]{
     background-color: #ff0000;
 }
+/*selector por id*/
+#title_box{
+    color: #0000ff;
+    background-color: #f0ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 50px;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px 2px blue;
+}
+#box_father{
+    background-color: #000;
+    width: 300px;
+    height:300px;
+    background-image: url(https://img.freepik.com/premium-photo/cute-capybara-farm-is-taking-bath_361141-902.jpg?w=2000);
+    background-position: center;
+    background-size: cover;
+
+}
+/* #box_model{
+    background-color: #ff4500;
+    width: 50%;
+    height: 50%;
+} */
+/*aplicacion de media queris*/
+@media (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: #ff0000;
+    }
+    #title_box{
+        text-align: left;
+    }
+}
+
+@media (max-width: 799px) {
+    body{
+        background-image: url(https://img.freepik.com/premium-photo/cute-capybara-farm-is-taking-bath_361141-902.jpg?w=2000);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+    
+
